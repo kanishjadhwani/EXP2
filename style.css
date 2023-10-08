@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Style the profile container */
+.profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the header */
+header {
+    text-align: center;
+}
+
+/* Style the profile image */
+.profile-info img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the profile name and role */
+.profile-info h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.profile-info p {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+}
+
+/* Style the profile details section */
+.profile-details h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.profile-details p {
+    margin-top: 10px;
+    line-height: 1.4;
+    color: #555;
+}
+
+/* Add hover effect */
+.profile-info img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+/* Style links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pseudo-class example */
+.profile-details h3:first-child::first-letter {
+    font-size: 150%;
+    color: #FF5733;
+}
+
+/* Pseudo-element example */
+.profile-details p::after {
+    content: " ➔";
+    color: #007BFF;
+}
